@@ -1,48 +1,72 @@
-# innvotex-corporate-site
-A secure, multi-language corporate CMS built with Python Flask &amp; SQLite, deployed on GoDaddy Shared Hosting using Phusion Passenger.
 # Innvotex - Corporate Web Application 🏭
 
-A dynamic, secure, and fully responsive corporate website built for a textile machinery and consulting company.
-
-🔗 **Live Demo:** [https://www.innvotex.com](https://www.innvotex.com)
-
-![Project Screenshot](screenshot.png)
-*(Note: Replace 'screenshot.png' with an actual screenshot of the landing page)*
+### 🔴 LIVE STATUS: **ONLINE**
+<a href="https://www.innvotex.com" target="_blank">
+  <img src="https://user-images.githubusercontent.com/6752632/125637256-4c759082-f327-4402-861d-788df6718d7f.gif" width="15" height="15" />
+  <strong>CLICK HERE TO VISIT: www.innvotex.com</strong>
+</a>
+![Main Banner](home.png)
 
 ## 🚀 Project Overview
 
-This project was developed to provide a strong digital presence for **Innvotex**. Unlike static websites, this application features a **custom-built Content Management System (CMS)** allowing the site owner to manage blogs, media galleries, FAQs, and incoming messages without touching a single line of code.
+This project is a dynamic, secure, and fully responsive corporate website built for **Innvotex**, a textile machinery and consulting company.
 
-The application is deployed on a **Shared Hosting environment (cPanel)** using **Phusion Passenger**, demonstrating advanced deployment configuration capabilities beyond standard VPS setups.
+Unlike static websites, this application features a **custom-built Content Management System (CMS)**, allowing the business owner to manage blogs, media galleries, FAQs, and incoming messages without touching a single line of code.
 
-## 🛠️ Tech Stack & Key Features
+## 🛠️ Tech Stack
 
-### Backend
-* **Python / Flask:** The core framework powering the application.
-* **SQLite:** Lightweight yet robust database for storing messages, user data, and blog content.
-* **Phusion Passenger:** Used as the application server to run Python on cPanel shared hosting.
+* **Backend:** Python 3, Flask Framework
+* **Database:** SQLite (Lightweight & Fast)
+* **Server:** GoDaddy Shared Hosting (cPanel) running via **Phusion Passenger**
+* **Frontend:** HTML5, CSS3, Jinja2 Templates, JavaScript
+* **Email Service:** Brevo API integration (Custom JSON encoding)
 
-### Key Functionalities
-* **🔐 Secure Admin Panel:** A protected dashboard for the business owner to manage content.
-* **🌍 Multi-Language Support:** Fully integrated localization (TR/EN/FR) using `Flask-Babel`.
-* **📧 Advanced Mail Integration:** Custom integration with **Brevo API** for contact forms and secure "Password Reset" functionality (overcoming standard SMTP port blocks).
-* **🛡️ Security:**
-    * CSRF Protection (`Flask-WTF`).
-    * Rate Limiting (`Flask-Limiter`) to prevent abuse.
-    * Secure Password Hashing (`Werkzeug`).
-    * Automatic HTTPS enforcement.
-* **🖼️ Dynamic Media Management:** Admin can upload/delete images and videos for the blog/gallery section.
+## 💡 Key Features & Deployment Challenge
 
-## 💡 Deployment Challenge
+One of the biggest achievements of this project was **deploying a modern Python/Flask application on a legacy Shared Hosting infrastructure**.
 
-One of the key achievements of this project was successfully deploying a modern Python Flask application on a legacy **GoDaddy Shared Hosting** infrastructure.
+* **Security:** Implemented CSRF protection, secure admin authentication, and automated HTTPS enforcement via `.htaccess`.
+* **Localization:** Multi-language infrastructure (TR/EN/FR).
+* **Performance:** Optimized media serving and database queries for shared resources.
 
-* Configured **`.htaccess`** and **`passenger_wsgi.py`** for proper routing.
-* Solved complex environment path issues and `pip` dependency conflicts in a restricted environment.
-* Implemented custom JSON encoding handling for email APIs to support Turkish character sets flawlessly.
+---
 
-## 👨‍💻 Developer Notes
+## 📸 Project Gallery
 
-This repository serves as a portfolio showcase. Due to client confidentiality and proprietary business logic, the full source code is not publicly available.
+Here is a visual tour of the application features.
 
-If you are interested in the technical details or my deployment strategies for Python on Shared Hosting, feel free to contact me!
+### 1. Home Page & Production
+*Modern, responsive landing page design.*
+![Home Page](home.png)
+![Production Page](uretim.png)
+
+### 2. Secure Admin Dashboard & Login
+*Protected administration panel for content management.*
+![Login Screen](login.png)
+![Admin Dashboard](admin.png)
+
+### 3. Dynamic Content Management
+*Admins can easily manage Gallery images and FAQs (SSS) without coding.*
+![Admin Gallery](admingaleri.png)
+![Admin FAQ](adminsss.png)
+
+### 4. Multi-Language Support
+*Seamless switching between English, French, and Turkish.*
+| English View | French View |
+|:---:|:---:|
+| ![English](eng.png) | ![French](fr.png) |
+
+### 5. Mobile Responsiveness 📱
+*Fully responsive layout optimized for all mobile devices.*
+
+| Mobile Menu | Home View | Content | Forms | Details |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Mobile 1](1.png) | ![Mobile 2](2.png) | ![Mobile 3](3.png) | ![Mobile 4](4.png) | ![Mobile 5](5.png) |
+
+---
+
+### 👨‍💻 Developer Notes
+
+This repository serves as a showcase of my full-stack development and deployment skills. Due to client confidentiality, the full source code is not publicly available.
+
+If you have questions about **deploying Flask on cPanel/Passenger**, feel free to reach out!
