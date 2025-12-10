@@ -1,8 +1,7 @@
 # Innvotex - Corporate Web Application 🏭
 
-### <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Red_circle_flashing.gif" width="20" height="20" /> LIVE STATUS: **ONLINE**
-
-## 👉 [CLICK HERE TO VISIT: www.innvotex.com](https://www.innvotex.com)
+### 🔴 <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Red_circle_flashing.gif" width="15" height="15" /> Status: **LIVE**
+# 👉 [CLICK HERE TO VISIT: www.innvotex.com](https://www.innvotex.com)
 
 ![Main Banner](home.png)
 
