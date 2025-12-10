@@ -2,9 +2,12 @@
 
 ### 🔴 LIVE STATUS: **ONLINE**
 <a href="https://www.innvotex.com" target="_blank">
-  <img src="https://user-images.githubusercontent.com/6752632/125637256-4c759082-f327-4402-861d-788df6718d7f.gif" width="15" height="15" />
-  <strong>CLICK HERE TO VISIT: www.innvotex.com</strong>
-</a>
+# Innvotex - Corporate Web Application 🏭
+
+### <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Red_circle_flashing.gif" width="20" height="20" /> LIVE STATUS: **ONLINE**
+
+## 👉 [CLICK HERE TO VISIT: www.innvotex.com](https://www.innvotex.com)
+
 ![Main Banner](home.png)
 
 ## 🚀 Project Overview
