@@ -26,6 +26,9 @@ One of the biggest achievements of this project was **deploying a modern Python/
 * **Security:** Implemented CSRF protection, secure admin authentication, and automated HTTPS enforcement via `.htaccess`.
 * **Localization:** Multi-language infrastructure (TR/EN/FR).
 * **Performance:** Optimized media serving and database queries for shared resources.
+* **🔐 Role-Based Access Control (RBAC):**
+* **Admins:** Full access to CMS (Gallery, FAQ, Blog management).
+* **Standard Users:** Restricted access limited to messaging and support tickets only.
 
 ---
 
